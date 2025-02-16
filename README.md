@@ -52,7 +52,7 @@ Here’s what the program output might look like:
 ---
 
 ## 🏆 Credits  
-👨‍💻 Developed by **[Your Name]**  
+👨‍💻 Developed by **Bolutife Alli** 
 ☕ Powered by **Java**  
 
 ---
