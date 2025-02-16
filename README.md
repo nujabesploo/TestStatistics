@@ -1,57 +1,53 @@
-# 🏗️ Address Formatter: The Ultimate Address Organizer  
+# 📊 Test Score Analyzer: Data-Driven Insights  
 
 ## 📌 Overview  
-The **Address Formatter** is a Java-based program that collects, formats, and neatly displays **billing and shipping addresses**. With a structured approach, it ensures clean formatting and a smooth user experience for handling address data.  
+The **Test Score Analyzer** is a Java program designed to process an array of test scores, compute statistical values, and provide insights into student performance. By determining the **highest score, lowest score, average, median, and the difference between average and median**, this program offers a quick yet effective analysis of test data.  
 
 ---
 
 ## 🚀 Features  
-📥 **User-Friendly Input** – Guides users through entering their address details 📝  
-🏗️ **Efficient String Handling** – Uses `StringBuilder` to optimize address formatting 🛠️  
-🔄 **Input Buffer Handling** – Prevents input errors when switching between text and numbers 🚦  
-📋 **Clean and Readable Output** – Displays the formatted address details in an easy-to-read format 📄  
+📊 **Automatic Score Analysis** – Computes **average, median, and difference** instantly ✅  
+📈 **High & Low Score Detection** – Identifies the **highest and lowest test scores** 📌  
+🔄 **Dynamic Calculation** – Works with any list of test scores, ensuring flexibility 🔢  
+🖨️ **Formatted Output** – Displays results with **two decimal precision** for accuracy 🎯  
 
 ---
 
 ## 🏗️ How It Works  
-1. 🏁 The program **prompts the user** to enter their **full name**.  
-2. 🏠 The user enters **billing address details**, including:  
-   - 📍 **Street Address**  
-   - 🏙️ **City**  
-   - 🌍 **State**  
-   - 🔢 **Zip Code**  
-3. 🧹 The system clears any input buffering issues for smooth execution.  
-4. 🚚 The user enters **shipping address details** in the same format.  
-5. 📑 The program **formats the input data**, ensuring a clean and organized output.  
-6. 🎉 The **formatted billing and shipping addresses** are displayed for easy reference.  
+1. 📥 **The program initializes an array** of test scores.  
+2. 🔎 It loops through the array to:  
+   - 🏆 Identify the **highest score**  
+   - 📉 Identify the **lowest score**  
+   - ➕ Calculate the **sum of all scores**  
+3. 📊 **The average score is computed** by dividing the total sum by the number of scores.  
+4. 🏛 **The median** is determined as the midpoint between the **highest and lowest scores**.  
+5. 📉 **The difference** between the **average and median** is calculated to assess score distribution.  
+6. 📝 The program **prints the results**, neatly formatted to two decimal places.  
 
 ---
 
 ## 📸 Screenshots  
-Here’s a preview of how the program works:  
+Here’s what the program output might look like:  
 
-### ✍️ User Input  
-![User Input Example](path/to/user_input_screenshot.png)  
+### 🏆 Score Analysis Results  
+![Test Score Output](path/to/test_score_screenshot.png)  
 
-### 🏡 Formatted Address Output  
-![Formatted Address](path/to/formatted_address_screenshot.png)  
-
-*(Replace paths with actual screenshots when available.)*  
+*(Replace path with actual screenshot location when available.)*  
 
 ---
 
 ## 🎯 How to Use  
-1. **Run the program** in a Java-supported environment 💻  
-2. **Follow the on-screen prompts** to enter your address details 🏠  
-3. **View your formatted address output** neatly displayed on the screen ✅  
+1. **Run the program** in a Java-supported environment 🖥️  
+2. **Observe the calculated statistics**, including average, median, and high/low scores 📊  
+3. **Modify the test scores** in the array to analyze different datasets 🔄  
 
 ---
 
 ## 🔮 Future Enhancements  
-🔹 **Error Handling** – Validate zip codes and prevent incorrect input 🚨  
-🔹 **Auto-Fill Feature** – Allow users to copy billing info for shipping if both are the same 🔄  
-🔹 **Database Integration** – Save and retrieve frequently used addresses 🗄️  
-🔹 **GUI Version** – Upgrade from console-based input to a **graphical user interface** 🖥️  
+🔹 **Sorting Feature** – Sort test scores before calculating a proper median 🔢  
+🔹 **Full Statistical Report** – Include **mode** and **standard deviation** for deeper analysis 📑  
+🔹 **User Input Mode** – Allow users to **input their own scores** dynamically 📝  
+🔹 **Graphical Output** – Display results in **charts and visual graphs** 📈  
 
 ---
 
