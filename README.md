@@ -32,7 +32,6 @@ Here’s what the program output might look like:
 ### 🏆 Score Analysis Results  
 ![Test Score Output](path/to/test_score_screenshot.png)  
 
-*(Replace path with actual screenshot location when available.)*  
 
 ---
 
