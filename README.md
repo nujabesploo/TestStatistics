@@ -30,8 +30,7 @@ The **Test Score Analyzer** is a Java program designed to process an array of te
 Here’s what the program output might look like:  
 
 ### 🏆 Score Analysis Results  
-![Test Score Output](path/to/test_score_screenshot.png)  
-
+<img src="https://github.com/user-attachments/assets/63988d7a-5c48-4c29-9cdc-036b6de9b889" alt="Screenshot of application" width="300x100"/>
 
 ---
 
